@@ -63,6 +63,7 @@
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 40px 30px 40px 30px;
     flex-direction: column;
 }
@@ -111,6 +112,23 @@
     width: 80%;
     max-width: 1050px;
     margin: 20px auto 20px auto;
+}
+
+#portfolio-button
+{
+    justify-self: center;
+    cursor: pointer;
+    border: none;
+    background: grey;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#portfolio-button:hover
+{
+    background-color: green;
 }
 
 
